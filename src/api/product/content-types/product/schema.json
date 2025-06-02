@@ -21,18 +21,11 @@
     "description": {
       "type": "blocks"
     },
-    "picture": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "price": {
       "type": "decimal"
+    },
+    "picture_url": {
+      "type": "string"
     }
   }
 }
