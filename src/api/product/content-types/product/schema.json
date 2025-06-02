@@ -21,11 +21,11 @@
     "description": {
       "type": "blocks"
     },
-    "picture_url": {
-      "type": "string"
-    },
     "price": {
       "type": "decimal"
+    },
+    "picture_url": {
+      "type": "string"
     }
   }
 }
