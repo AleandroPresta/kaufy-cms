@@ -21,17 +21,11 @@
       "required": true,
       "unique": true
     },
-    "description": {
-      "type": "blocks"
-    },
     "price": {
       "type": "decimal",
       "required": true
     },
     "picture_url": {
-      "type": "string"
-    },
-    "image_url": {
       "type": "string"
     }
   }
