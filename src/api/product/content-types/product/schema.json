@@ -13,16 +13,20 @@
   "attributes": {
     "slug": {
       "type": "uid",
-      "targetField": "name"
+      "targetField": "name",
+      "required": true
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "description": {
       "type": "blocks"
     },
     "price": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true
     },
     "picture_url": {
       "type": "string"
