@@ -30,6 +30,9 @@
     },
     "picture_url": {
       "type": "string"
+    },
+    "image_url": {
+      "type": "string"
     }
   }
 }
