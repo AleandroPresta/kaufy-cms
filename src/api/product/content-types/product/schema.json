@@ -27,6 +27,12 @@
     },
     "picture_url": {
       "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "decimal"
     }
   }
 }
